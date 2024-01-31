@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+
+
+{%block title%}
+    Book Detail Page
+{%endblock%}
+
+
+{%block body%}
+    <h3>Welcome to Book Detail Page</h3>
+    <h4>Name: {{Book.book_name}}</h4>
+    <h4>Book ID: {{Book.book_id}}</h4>
+    <h4>Author: {{Book.book_auth}}</h4>
+    <h4>Available Copies: {{Book.book_copies}}</h4>
+{%endblock%}
